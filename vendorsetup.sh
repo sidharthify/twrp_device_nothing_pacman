@@ -17,7 +17,7 @@
 #
 # 	Please maintain this if you use this script or any part of it
 #
-FDEVICE="Pacman"
+FDEVICE="pacman"
 #set -o xtrace
 
 fox_get_target_device() {
@@ -88,7 +88,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 
 	# R12.1 Settings
 	export FOX_VERSION="R12.1_InternalBeta"
-	export OF_MAINTAINER="Pacman-Development"
+	export OF_MAINTAINER="pacman-Development"
 
 	# Build VARs
 	if [ -n "$FOX_BUILD_LOG_FILE" -a -f "$FOX_BUILD_LOG_FILE" ]; then

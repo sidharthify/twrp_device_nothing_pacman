@@ -4,8 +4,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/nothing/Pacman
-KERNEL_PATH := device/nothing/Pacman-kernel
+DEVICE_PATH := device/nothing/pacman
+KERNEL_PATH := device/nothing/pacman-kernel
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -44,7 +44,7 @@ TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a55
 OVERRIDE_TARGET_FLATTEN_APEX := true
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := Pacman
+TARGET_BOOTLOADER_BOARD_NAME := pacman
 TARGET_NO_BOOTLOADER := true
 
 # Resolution

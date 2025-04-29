@@ -1,13 +1,13 @@
 # Device identifier
-PRODUCT_DEVICE := Pacman
-PRODUCT_NAME := twrp_Pacman
+PRODUCT_DEVICE := pacman
+PRODUCT_NAME := twrp_pacman
 PRODUCT_BRAND := Nothing
 PRODUCT_MODEL := A142
 PRODUCT_MANUFACTURER := Nothing
 PRODUCT_RELEASE_NAME := Nothing Phone 2A
 
 # Device specific configs
-$(call inherit-product, device/nothing/Pacman/device.mk)
+$(call inherit-product, device/nothing/pacman/device.mk)
 
 # Configure virtual_ab_ota.mk
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)

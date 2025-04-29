@@ -1,4 +1,4 @@
-DEVICE_PATH := device/nothing/Pacman
+DEVICE_PATH := device/nothing/pacman
 
 # API
 PRODUCT_SHIPPING_API_LEVEL := 32
@@ -11,8 +11,8 @@ AB_OTA_PARTITIONS += \
     product \
     system \
     system_ext \
-    vendor 
-  
+    vendor
+
 PRODUCT_PACKAGES += \
     update_engine \
     update_engine_sideload \

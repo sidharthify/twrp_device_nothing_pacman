@@ -1,4 +1,4 @@
-### Custom Recovery Tree for the Nothing Phone 2a (Pacman)
+### Custom Recovery Tree for the Nothing Phone 2a (pacman)
 
 ```
 # SPDX-License-Identifier: Apache-2.0
@@ -9,7 +9,7 @@
 
 =========================================
 
-The Nothing Phone 2A (codenamed _"Pacman"_) is a mid-range smartphone from Nothing released in early 2024.
+The Nothing Phone 2A (codenamed _"pacman"_) is a mid-range smartphone from Nothing released in early 2024.
 ![Nothing Phone 2A](https://nothing.tech/cdn/shop/products/black-1.png?v=1709369796)
 
 ## Device specifications
